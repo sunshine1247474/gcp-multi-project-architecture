@@ -1,0 +1,25 @@
+# Terraform state & local files
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate.*.backup
+terraform/terraform.tfvars
+terraform/tfplan
+terraform/*.tfplan
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+*.json
+!package.json
+.env
+
+# Local docs (not part of the repo)
+docs/
